@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family:'roboto';
+    margin: 5px;
+}
+.menu-main
+{
+    list-style: none;
+    display: flex;
+    line-height: 1px;
+    padding: 0px 15;
+    position: relative;
+}
+a
+{
+    text-decoration: none;
+    color: grey;
+    padding:5px;
+
+}
+.logoplanner
+{
+    width: 250px;
+    height: 70px;
+}
+.dropdown
+{
+    visibility: hidden;
+list-style: none;  
+color: gray; 
+border: 0px solid white; 
+width: 250px;
+height: 70px;
+}
+nav ul li .drophover:hover nav div
+{
+visibility: visible;}
+.word-docplanner
+{
+    color: #00ccb1;
+}
+.word-group
+{
+    color: gray;
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    margin: 0%;
+
+}
+.about
+{
+    color: #00ccb1;
+}
+.introduction
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+.text
+{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    color: gray;
+}
+
+.p3
+{
+    align-items: center;
+    box-sizing: inherit;
+    padding: 10px;
+}
+.introduction-logo
+{
+    width: 100px;
+    height: 100px;
+}
+.making-health
+{
+    color: #00ccb1;
+    
+}
+/*.text1
+{    display: flex;
+    color: grey;
+    width: 700px;
+    padding: 2px;
+}
+*/
+.services
+{
+    display: flex;
+    
+}
+.service-card
+{
+    border-radius: 8px;
+    color: white;
+    margin: 5px;
+    padding: 8px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    left: 20%;
+}
+.service-card-patients{
+    background-color: #00ccb1;
+    padding: 10px;
+}
+.service-card-doctors
+{
+ padding: 10px;
+    background-color: #3d83df;
+    cursor: default;
+}
+.service-card-clinics
+{
+    padding: 10px;
+    background-color: #1b2734;
+}
+select
+{
+    margin: 20px;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    font-size: large;
+}
+option
+{
+    color: black;
+}
+.service-title
+{
+    padding: 5px;
+}
+.all-title h1
+{
+    float: lefts;
+    color: #00ccb1;
+    text-align: center;
+}
+section ul
+{
+    align-items:flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:auto ;
+    list-style: none;
+}
+.progress
+{
+
+    background-color: #d9f6f6;
+    zoom: 1;
+    max-width: 1300px;
+    height: 600px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    
+}
+.progress-h1
+{
+    color: #00ccb1;
+    width: 100%;    
+}
+.flagdiv
+{
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+text-align: center;}
+.visits
+{
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+text-align: center;
+}
+.pation
+{
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+text-align: center;
+}
+.active-doctors
+{
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+text-align: center;
+}
+.alldiv
+ {
+display: inline-block;
+ }
+.h3
+{
+    color: #00ccb1;
+}
+.progress p
+{
+    font-family: Sans-serif	;
+}
+.offices__header {
+    max-width: 460px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+.offices__header h1
+{
+    color: #00ccb1;
+}
+.offices__slider
+ {
+    margin: 0 -10px;
+    zoom:1;
+}
+.office__image img {
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.office__desc {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+}
+.join-us__header {
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+.main-footer .section__inner, .main-footer p {
+    font-size: 12px;
+    color: #ababab;
+}
+
+
+.office a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+footer
+{
+    text-align: center;
+}
+.offices__slider .office {
+    width: 33.33%;
+    float: left;
+}
